@@ -1,0 +1,212 @@
+.main-idolos{
+  h1{
+   @include titulos( black, 30px, center, 5%)
+  }
+  .idolos-foto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+
+    p{
+        margin-bottom: 3rem;
+        margin-top: 3rem;
+        text-align: center;
+    }
+
+    img{
+        height: 500px;
+        width: 900px;
+    }
+  }
+
+  .idolo{
+   display: flex;
+   flex-direction: column;
+  
+  .beto{
+     display: flex;
+     align-items: center;
+     text-align: center;
+     margin-top: 5rem;
+     
+     .beto-foto{
+         margin-left: 2rem;
+
+         h2{
+           background-color:$fondos;
+         }
+
+          img{
+            width: 277px;
+            height: 277px;
+          }
+
+     }
+     p{
+        margin-left: 1rem;
+     }
+
+  }
+
+   .ramon{
+    display: flex;
+     align-items: center;
+     text-align: center;
+     margin-top: 5rem;
+
+     .ramon-foto{
+        margin-left: 2rem;
+        h2{
+            background-color: $fondos ;
+        }
+        img{
+            width: 277px;
+            height: 277px;
+        }
+     }
+
+     p{
+        margin-left: 1rem;
+     }
+
+   }
+
+    .labruna{
+     display: flex;
+     align-items: center;
+     text-align: center;
+     margin-top: 5rem;
+
+     .labruna-foto{
+        margin-left: 2rem;
+        h2{
+            background-color: $fondos ;
+        }
+
+        img{
+            width: 277px;
+            height: 277px;
+        }
+
+     }
+     p{
+        margin-left: 1rem;
+     }
+    }
+ 
+   .carrizo{
+     display: flex;
+     align-items: center;
+     text-align: center;
+     margin-top: 5rem;
+
+     .carrizo-foto{
+        margin-left: 2rem;
+
+        h2{
+            background-color: $fondos ;
+        }
+
+        img{
+            width: 277px;
+            height: 277px; 
+        }
+     }
+     p{
+        margin-left: 1rem;
+     }
+   }
+
+   .ortega{
+    display: flex;
+     align-items: center;
+     text-align: center;
+     margin-top: 5rem;
+
+     .ortega-foto{
+        margin-left: 2rem;
+
+        h2{
+            background-color: $fondos ;
+        }
+        img{
+            width: 277px;
+            height: 277px;
+            
+        }
+     }
+     p{
+        margin-left: 1rem;
+     }
+   }
+
+   .francescoli{
+     display: flex;
+     align-items: center;
+     text-align: center;
+     margin-top: 5rem;
+
+     .francescoli-foto{
+        margin-left: 2rem;
+
+        h2{
+            background-color: $fondos ;
+        }
+
+        img{
+            width: 277px;
+            height: 277px;
+        }
+     }
+     p{
+        margin-left: 1rem;
+     }
+   }
+
+   .gallardo{
+     display: flex;
+     align-items: center;
+     text-align: center;
+     margin-top: 5rem;
+
+     .gallardo-foto{
+        margin-left: 2rem;
+
+        h2{
+            background-color: $fondos ;
+        }
+
+        img{
+            width: 277px;
+            height: 277px;
+        }
+     }
+     p{
+        margin-left: 1rem;
+     }
+   }
+
+   .ponzio{
+     display: flex;
+     align-items: center;
+     text-align: center;
+     margin-top: 5rem;
+
+     .ponzio-foto{
+        margin-left: 2rem;
+
+        h2{
+          background-color: $fondos ;
+        }
+        img{
+            width: 277px;
+            height: 277px;
+        }
+     }
+     p{
+        margin-left: 1rem;
+     }
+   }
+  }
+}

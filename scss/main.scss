@@ -1,0 +1,16 @@
+@import "utilities/globals";
+@import "utilities/reset";
+@import "utilities/variables";
+@import "utilities/mixin";
+
+@import "components/header.scss";
+@import "components/footer.scss";
+
+@import "pages/home.scss";
+@import "pages/trofeos.scss";
+@import "pages/idolos.scss";
+@import "pages/estadio.scss";
+@import "pages/iniciarsesion.scss";
+
+@import"utilities/media-queries";
+

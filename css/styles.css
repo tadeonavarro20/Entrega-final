@@ -1,0 +1,960 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #FF0000;
+  height: auto;
+}
+header nav {
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+header nav a .escudo-nav {
+  width: 60px;
+}
+header nav .buttom {
+  border: 0;
+}
+header nav .buttom .menu-icon {
+  background-image: url(../assets/img/menu-hamburgesa.svg);
+}
+header nav .navbar-collapse .nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.foot {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  background-color: #FF0000;
+  height: 100%;
+  width: 100%;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.foot .escudo-texto {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+}
+.foot .escudo-texto .texto-largo {
+  font-size: 40px;
+}
+.foot .escudo-texto .carp {
+  display: none;
+}
+.foot .iconos {
+  display: flex;
+  align-items: center;
+}
+.foot .iconos a .twitter {
+  width: 40px;
+  height: 40px;
+}
+
+.historia {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 17px;
+  padding: 15px;
+}
+.historia h1 {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 5%;
+}
+.historia .section1 {
+  display: flex;
+  align-items: center;
+  margin-top: 5%;
+}
+.historia .section1 img {
+  width: 40%;
+  margin: 25px;
+}
+.historia .section2 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-top: 2%;
+}
+.historia .section2 img {
+  width: 40%;
+  margin: 25px;
+}
+.historia .section3 {
+  display: flex;
+  align-items: center;
+  margin-top: 2%;
+}
+.historia .section3 img {
+  width: 40%;
+  margin: 25px;
+}
+.historia .textoFinal {
+  display: flex;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.main-trofeos h1 {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 5%;
+}
+.main-trofeos .titulo-foto {
+  margin-top: 60px;
+  text-align: center;
+}
+.main-trofeos .titulo-foto .museo {
+  margin-top: 30px;
+}
+.main-trofeos .titulos-importantes p {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 3rem;
+}
+.main-trofeos .titulos-importantes h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 2rem;
+}
+.main-trofeos .libertadores {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  gap: 30px;
+}
+.main-trofeos .libertadores .libtrofeo1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.main-trofeos .libertadores .libtrofeo1 .img-trofeos {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  margin: 0;
+}
+.main-trofeos .libertadores .libtrofeo1 p {
+  width: auto;
+  height: auto;
+}
+.main-trofeos .libertadores .libtrofeo2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.main-trofeos .libertadores .libtrofeo2 .img-trofeos {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  margin: 0;
+}
+.main-trofeos .libertadores .libtrofeo2 p {
+  width: auto;
+  height: auto;
+}
+.main-trofeos .libertadores .libtrofeo3 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.main-trofeos .libertadores .libtrofeo3 .img-trofeos {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  margin: 0;
+}
+.main-trofeos .libertadores .libtrofeo3 p {
+  width: auto;
+  height: auto;
+}
+.main-trofeos .lib2018 {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-trofeos .lib2018 img {
+  width: 1000px;
+  height: 600px;
+}
+.main-trofeos .lib2018 p {
+  text-align: center;
+  margin-top: 3rem;
+}
+.main-trofeos .intercontinental {
+  text-align: center;
+  font-size: 2rem;
+}
+.main-trofeos .copa1986 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+  text-align: center;
+}
+.main-trofeos .copa1986 img {
+  height: 600px;
+  width: 1000px;
+  margin-bottom: 2rem;
+}
+.main-trofeos .locales {
+  text-align: center;
+  font-size: 2rem;
+}
+.main-trofeos .torneo-local {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+  text-align: center;
+}
+.main-trofeos .torneo-local img {
+  height: 600px;
+  width: 1000px;
+  margin-bottom: 2rem;
+}
+
+.main-idolos h1 {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 5%;
+}
+.main-idolos .idolos-foto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+.main-idolos .idolos-foto p {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+.main-idolos .idolos-foto img {
+  height: 500px;
+  width: 900px;
+}
+.main-idolos .idolo {
+  display: flex;
+  flex-direction: column;
+}
+.main-idolos .idolo .beto {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 5rem;
+}
+.main-idolos .idolo .beto .beto-foto {
+  margin-left: 2rem;
+}
+.main-idolos .idolo .beto .beto-foto h2 {
+  background-color: #FF0000;
+}
+.main-idolos .idolo .beto .beto-foto img {
+  width: 277px;
+  height: 277px;
+}
+.main-idolos .idolo .beto p {
+  margin-left: 1rem;
+}
+.main-idolos .idolo .ramon {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 5rem;
+}
+.main-idolos .idolo .ramon .ramon-foto {
+  margin-left: 2rem;
+}
+.main-idolos .idolo .ramon .ramon-foto h2 {
+  background-color: #FF0000;
+}
+.main-idolos .idolo .ramon .ramon-foto img {
+  width: 277px;
+  height: 277px;
+}
+.main-idolos .idolo .ramon p {
+  margin-left: 1rem;
+}
+.main-idolos .idolo .labruna {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 5rem;
+}
+.main-idolos .idolo .labruna .labruna-foto {
+  margin-left: 2rem;
+}
+.main-idolos .idolo .labruna .labruna-foto h2 {
+  background-color: #FF0000;
+}
+.main-idolos .idolo .labruna .labruna-foto img {
+  width: 277px;
+  height: 277px;
+}
+.main-idolos .idolo .labruna p {
+  margin-left: 1rem;
+}
+.main-idolos .idolo .carrizo {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 5rem;
+}
+.main-idolos .idolo .carrizo .carrizo-foto {
+  margin-left: 2rem;
+}
+.main-idolos .idolo .carrizo .carrizo-foto h2 {
+  background-color: #FF0000;
+}
+.main-idolos .idolo .carrizo .carrizo-foto img {
+  width: 277px;
+  height: 277px;
+}
+.main-idolos .idolo .carrizo p {
+  margin-left: 1rem;
+}
+.main-idolos .idolo .ortega {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 5rem;
+}
+.main-idolos .idolo .ortega .ortega-foto {
+  margin-left: 2rem;
+}
+.main-idolos .idolo .ortega .ortega-foto h2 {
+  background-color: #FF0000;
+}
+.main-idolos .idolo .ortega .ortega-foto img {
+  width: 277px;
+  height: 277px;
+}
+.main-idolos .idolo .ortega p {
+  margin-left: 1rem;
+}
+.main-idolos .idolo .francescoli {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 5rem;
+}
+.main-idolos .idolo .francescoli .francescoli-foto {
+  margin-left: 2rem;
+}
+.main-idolos .idolo .francescoli .francescoli-foto h2 {
+  background-color: #FF0000;
+}
+.main-idolos .idolo .francescoli .francescoli-foto img {
+  width: 277px;
+  height: 277px;
+}
+.main-idolos .idolo .francescoli p {
+  margin-left: 1rem;
+}
+.main-idolos .idolo .gallardo {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 5rem;
+}
+.main-idolos .idolo .gallardo .gallardo-foto {
+  margin-left: 2rem;
+}
+.main-idolos .idolo .gallardo .gallardo-foto h2 {
+  background-color: #FF0000;
+}
+.main-idolos .idolo .gallardo .gallardo-foto img {
+  width: 277px;
+  height: 277px;
+}
+.main-idolos .idolo .gallardo p {
+  margin-left: 1rem;
+}
+.main-idolos .idolo .ponzio {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 5rem;
+}
+.main-idolos .idolo .ponzio .ponzio-foto {
+  margin-left: 2rem;
+}
+.main-idolos .idolo .ponzio .ponzio-foto h2 {
+  background-color: #FF0000;
+}
+.main-idolos .idolo .ponzio .ponzio-foto img {
+  width: 277px;
+  height: 277px;
+}
+.main-idolos .idolo .ponzio p {
+  margin-left: 1rem;
+}
+
+.main-estadio h1 {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 4rem;
+}
+.main-estadio .estadio-inauguracion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+.main-estadio .estadio-inauguracion img {
+  height: 600px;
+  width: 1050px;
+}
+.main-estadio .estadio-inauguracion p {
+  margin-top: 2rem;
+  text-align: center;
+}
+.main-estadio .estadio-herradura {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+}
+.main-estadio .estadio-herradura .cuatro-tribunas img {
+  height: 600px;
+  width: 1000px;
+}
+.main-estadio .estadio-herradura .cuatro-tribunas p {
+  text-align: center;
+  margin-top: 2rem;
+}
+.main-estadio .estadio-final {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+}
+.main-estadio .estadio-final p {
+  text-align: center;
+}
+.main-estadio .estadio-final img {
+  height: 600px;
+  width: 1000px;
+  margin-top: 2rem;
+}
+.main-estadio .visita-monu {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: 70vh;
+  max-width: 1400px;
+}
+.main-estadio .visita-monu h2 {
+  background-color: #FF0000;
+  margin: auto;
+  margin-top: 2rem;
+}
+.main-estadio .visita-monu .div1 {
+  grid-area: 1/1/2/3;
+  height: 3rem;
+  display: flex;
+}
+.main-estadio .visita-monu .div2 {
+  grid-area: 2/1/3/3;
+  display: flex;
+  padding: 20px;
+  margin-top: 2rem;
+  gap: 15px;
+}
+.main-estadio .visita-monu .div2 .iframe {
+  width: 100%;
+}
+.main-estadio .visita-monu .div2 .texto-visita {
+  display: flex;
+  align-items: center;
+}
+.main-estadio .visita-monu .div2 .texto-visita p {
+  width: 60%;
+}
+
+.main-iniciarsesion h1 {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 5%;
+}
+.main-iniciarsesion .inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 8rem;
+  margin-bottom: 10rem;
+}
+.main-iniciarsesion .inputs .nombre {
+  width: 290px;
+  margin-bottom: 2rem;
+}
+.main-iniciarsesion .inputs .apellido {
+  width: 290px;
+  margin-bottom: 2rem;
+}
+.main-iniciarsesion .inputs .usuario {
+  width: 290px;
+  margin-bottom: 2rem;
+}
+.main-iniciarsesion .inputs .mail {
+  width: 290px;
+  margin-bottom: 2rem;
+}
+.main-iniciarsesion .inputs .contraseña {
+  width: 290px;
+  margin-bottom: 2rem;
+}
+.main-iniciarsesion .inputs .provincia {
+  width: 290px;
+  margin-bottom: 2rem;
+}
+.main-iniciarsesion .inputs .condiciones {
+  width: 290px;
+}
+.main-iniciarsesion .inputs .enviar {
+  width: 290px;
+}
+.foot {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  background-color: #FF0000;
+  height: 100%;
+  width: 100%;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.foot .escudo-texto {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+}
+.foot .escudo-texto .texto-largo {
+  font-size: 40px;
+}
+.foot .escudo-texto .carp {
+  display: none;
+}
+.foot .iconos {
+  display: flex;
+  align-items: center;
+}
+.foot .iconos a .twitter {
+  width: 40px;
+  height: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .historia {
+    font-size: 17px;
+  }
+  .historia .section1 img {
+    width: 350px;
+  }
+  .historia .section2 img {
+    width: 350px;
+  }
+  .historia .section3 img {
+    width: 350px;
+  }
+  .main-trofeos .titulo-foto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-trofeos .titulo-foto .museo {
+    width: 100%;
+    height: auto;
+    padding: 100px;
+  }
+  .main-trofeos .titulos-importantes {
+    align-items: center;
+    text-align: center;
+  }
+  .main-trofeos .titulos-importantes p {
+    width: 100%;
+  }
+  .main-trofeos .libertadores {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: auto;
+  }
+  .main-trofeos .libertadores p {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .main-trofeos .lib2018 p {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 2rem;
+  }
+  .main-trofeos .lib2018 img {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+  .main-trofeos .copa1986 p {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 2rem;
+  }
+  .main-trofeos .copa1986 img {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+  .main-trofeos .torneo-local p {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 2rem;
+  }
+  .main-trofeos .torneo-local img {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+  .main-idolos .idolos-foto img {
+    width: 94%;
+  }
+  .main-estadio .estadio-inauguracion img {
+    width: 90%;
+    height: auto;
+  }
+  .main-estadio .estadio-herradura img {
+    width: 90%;
+    height: auto;
+  }
+  .main-estadio .estadio-final img {
+    width: 90%;
+    height: auto;
+  }
+  .main-estadio .visita-monu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .main-estadio .visita-monu h2 {
+    margin: 4rem;
+  }
+  .main-estadio .visita-monu .div2 .texto-visita {
+    display: none;
+  }
+  .foot .escudo-texto {
+    justify-content: flex-start;
+  }
+  .foot .escudo-texto .texto-largo {
+    display: none;
+  }
+  .foot .escudo-texto .carp {
+    display: block;
+  }
+}
+@media screen and (max-width: 768px) {
+  header {
+    width: auto;
+  }
+  .historia .section1 {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+  }
+  .historia .section1 img {
+    width: 310px;
+    height: 200px;
+  }
+  .historia .section2 {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+  .historia .section2 img {
+    width: 310px;
+    height: 200px;
+  }
+  .historia .section3 {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+  .historia .section3 img {
+    width: 310px;
+    height: 200px;
+  }
+  .main-trofeos .titulo-foto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-trofeos .titulo-foto .museo {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+  .main-trofeos .titulos-importantes {
+    align-items: center;
+    text-align: center;
+  }
+  .main-trofeos .titulos-importantes p {
+    width: 100%;
+  }
+  .main-trofeos .libertadores {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .main-trofeos .libertadores img {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+  .main-trofeos .libertadores p {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .main-trofeos .lib2018 p {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 2rem;
+  }
+  .main-trofeos .lib2018 img {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+  .main-trofeos .copa1986 p {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 2rem;
+  }
+  .main-trofeos .copa1986 img {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+  .main-trofeos .torneo-local p {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 2rem;
+  }
+  .main-trofeos .torneo-local img {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+  .main-idolos .idolos-foto img {
+    width: 90%;
+    height: auto;
+    padding: 20px;
+  }
+  .main-idolos .idolo {
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+  }
+  .main-idolos .idolo .beto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .main-idolos .idolo .beto .beto-foto h2 {
+    width: 100%;
+  }
+  .main-idolos .idolo .beto .beto-foto img {
+    width: 310px;
+    height: 200px;
+  }
+  .main-idolos .idolo .beto p {
+    width: 90%;
+  }
+  .main-idolos .idolo .ramon {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-idolos .idolo .ramon .ramon-foto h2 {
+    width: 100%;
+  }
+  .main-idolos .idolo .ramon .ramon-foto img {
+    width: 310px;
+    height: 200px;
+  }
+  .main-idolos .idolo .ramon p {
+    width: 90%;
+  }
+  .main-idolos .idolo .labruna {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-idolos .idolo .labruna .labruna-foto h2 {
+    width: 100%;
+  }
+  .main-idolos .idolo .labruna .labruna-foto img {
+    width: 310px;
+    height: 200px;
+  }
+  .main-idolos .idolo .labruna p {
+    width: 90%;
+  }
+  .main-idolos .idolo .carrizo {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-idolos .idolo .carrizo .carrizo-foto h2 {
+    width: 100%;
+  }
+  .main-idolos .idolo .carrizo .carrizo-foto img {
+    width: 310px;
+    height: 200px;
+  }
+  .main-idolos .idolo .carrizo p {
+    width: 90%;
+  }
+  .main-idolos .idolo .ortega {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-idolos .idolo .ortega .ortega-foto h2 {
+    width: 100%;
+  }
+  .main-idolos .idolo .ortega .ortega-foto img {
+    width: 310px;
+    height: 200px;
+  }
+  .main-idolos .idolo .ortega p {
+    width: 90%;
+  }
+  .main-idolos .idolo .francescoli {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-idolos .idolo .francescoli .francescoli-foto h2 {
+    width: 100%;
+  }
+  .main-idolos .idolo .francescoli .francescoli-foto img {
+    width: 310px;
+    height: 200px;
+  }
+  .main-idolos .idolo .francescoli p {
+    width: 90%;
+  }
+  .main-idolos .idolo .gallardo {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-idolos .idolo .gallardo .gallardo-foto h2 {
+    width: 100%;
+  }
+  .main-idolos .idolo .gallardo .gallardo-foto img {
+    width: 310px;
+    height: 200px;
+  }
+  .main-idolos .idolo .gallardo p {
+    width: 90%;
+  }
+  .main-idolos .idolo .ponzio {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-idolos .idolo .ponzio .ponzio-foto h2 {
+    width: 100%;
+  }
+  .main-idolos .idolo .ponzio .ponzio-foto img {
+    width: 310px;
+    height: 200px;
+  }
+  .main-idolos .idolo .ponzio p {
+    width: 90%;
+  }
+  .main-estadio .estadio-inauguracion img {
+    width: 90%;
+    height: auto;
+  }
+  .main-estadio .estadio-herradura img {
+    width: 90%;
+    height: auto;
+  }
+  .main-estadio .estadio-final img {
+    width: 90%;
+    height: auto;
+  }
+  .main-estadio .visita-monu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 70vh;
+    max-width: 1400px;
+    margin: auto;
+  }
+  .main-estadio .visita-monu h2 {
+    background-color: red;
+  }
+  .main-estadio .visita-monu .div2 {
+    grid-area: 2/1/3/3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-estadio .visita-monu .div2 .iframe {
+    margin-top: 5rem;
+  }
+  .main-estadio .visita-monu .div2 .iframe iframe {
+    width: 100%;
+  }
+  .main-estadio .visita-monu .div2 .texto-visita {
+    display: flex;
+    align-items: center;
+  }
+  .main-estadio .visita-monu .div2 .texto-visita p {
+    display: none;
+  }
+  .main-iniciarsesion form .mail {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .foot {
+    width: auto;
+  }
+  .foot .escudo-texto .escudo-color {
+    height: 120px;
+  }
+  .foot .escudo-texto .texto-largo {
+    display: none;
+  }
+  .foot .escudo-texto .carp {
+    display: none;
+  }
+  .foot .iconos {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+/*# sourceMappingURL=styles.css.map */

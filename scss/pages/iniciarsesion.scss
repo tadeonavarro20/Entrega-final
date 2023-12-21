@@ -1,0 +1,52 @@
+
+.main-iniciarsesion{
+ h1{
+    @include titulos( black, 30px, center, 5%)
+    
+ }
+ .inputs{
+    @include flex(column, center);
+    justify-content: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 8rem;
+    margin-bottom: 10rem;
+    
+     .nombre{
+        width: 290px;
+        margin-bottom: 2rem;
+        
+     }
+    
+     .apellido{
+        width: 290px;
+        margin-bottom: 2rem;
+     }
+    .usuario{
+        width: 290px;
+        margin-bottom: 2rem;
+    }
+    .mail{
+        width: 290px;
+        margin-bottom: 2rem;
+    }
+    .contraseña{
+        width: 290px;
+        margin-bottom: 2rem;
+    }
+
+    .provincia{
+        width: 290px;
+        margin-bottom: 2rem;
+    }
+    .condiciones{
+        width: 290px;
+        
+    }
+    .enviar{
+        width: 290px;
+    }
+
+ }
+ 
+}

@@ -1,0 +1,40 @@
+.foot{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    background-color: $fondos ;
+    height: 100%;
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    justify-content:space-between;
+    
+
+     .escudo-texto{
+        display:flex;
+        align-items: center;
+        justify-content:space-between ;
+        width: 60%;
+        
+        
+    
+        .texto-largo{
+            font-size: 40px;
+            
+            
+        }
+        .carp{
+         display: none;
+        }
+     }
+
+     .iconos{
+        display: flex;
+        align-items: center;
+        a{
+           .twitter{
+            width: 40px;
+            height: 40px;
+           }
+        }
+     }
+}

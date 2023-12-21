@@ -1,0 +1,650 @@
+ @media screen and (max-width: 1024px){
+ 
+// home
+
+.historia{
+    font-size: 17px;
+    .section1{
+       
+      
+        img{
+            width: 350px;
+        }
+    }
+
+    .section2{
+        img{
+            width: 350px;
+        }
+    }
+    .section3{
+        img{
+            width: 350px;
+        }
+    }
+}
+
+// trofeos
+.main-trofeos{
+
+
+    .titulo-foto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .museo{
+        width: 100%;
+        height: auto;
+        padding: 100px;
+    }
+    }
+
+    .titulos-importantes{
+        align-items: center;
+        text-align: center;
+
+        p{
+            width: 100%;
+        }
+    }
+
+    .libertadores{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        width: auto;
+           p{
+                
+                padding-left: 30px;
+                padding-right: 30px;
+           }
+        
+        }
+    .lib2018{
+        p{
+            padding-left: 30px;
+            padding-right: 30px;
+            margin-bottom: 2rem;
+        }
+        
+        img{
+            width: 100%;
+            height: auto;
+            padding: 20px;
+        }
+    }
+
+    .copa1986{
+        p{
+            padding-left: 30px;
+            padding-right: 30px;
+            margin-bottom: 2rem;
+        }
+        img{
+            width: 100%;
+            height: auto;
+            padding: 20px;
+        }
+    }
+
+    .torneo-local{
+        p{
+            padding-left: 30px;
+            padding-right: 30px;
+            margin-bottom: 2rem;
+        }
+        img{
+            width: 100%;
+            height: auto;
+            padding: 20px;
+        }
+    }
+
+
+}
+
+// idolos
+
+.main-idolos{
+
+    .idolos-foto{
+
+        img{
+            width: 94%;
+        }
+    }
+}
+
+// estadio
+
+.main-estadio{
+   .estadio-inauguracion{
+
+         img{
+            width: 90%;
+            height: auto;
+         }
+   }
+
+
+   .estadio-herradura{
+         img{
+            width: 90%;
+            height: auto;
+         }
+   }
+
+   .estadio-final{
+    img{
+        width: 90%;
+            height: auto;
+    }
+
+   }
+
+   .visita-monu{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+
+    h2{
+        margin: 4rem;
+    }
+    
+    .div2{
+        
+        .texto-visita{
+               display: none;
+        }
+    }
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+// footer
+
+.foot{
+    
+  .escudo-texto{
+    justify-content:flex-start;
+    
+    
+    .escudo-color{
+        
+    }
+    
+    .texto-largo{
+        display: none;
+       
+    }
+    .carp{
+        display: block;
+        
+        
+    }
+  }
+
+
+}
+
+
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ @media screen and (max-width: 768px) {
+
+// // header
+
+ header{
+    width: auto;
+
+ }
+
+// // home
+
+ .historia{
+     .section1{
+         flex-direction: column;
+         text-align: center;
+         margin-top: 40px;
+         padding: 20px;
+
+         img{
+             width: 310px;
+             height: 200px;
+         }
+     }
+
+     .section2{
+         flex-direction: column;
+         text-align: center;
+         padding: 20px;
+
+         img{
+           width: 310px;
+             height: 200px; 
+          }
+        }
+         .section3{
+         flex-direction: column;
+         text-align: center;
+         padding: 20px;
+
+         img{
+             width: 310px;
+             height: 200px;
+         }
+     }
+ }
+
+//  trofeos
+
+
+.main-trofeos{
+
+    .titulo-foto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .museo{
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+    }
+
+    .titulos-importantes{
+        align-items: center;
+        text-align: center;
+
+        p{
+            width: 100%;
+        }
+    }
+
+    .libertadores{
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    img{
+            width: 100%;
+            height: auto;
+            padding: 20px;
+    }
+       p{
+        padding-left: 30px;
+            padding-right: 30px;
+       }
+    
+    }
+    .lib2018{
+        p{
+            padding-left: 30px;
+            padding-right: 30px;
+            margin-bottom: 2rem;
+        }
+        
+        img{
+            width: 100%;
+            height: auto;
+            padding: 20px;
+        }
+    }
+
+    .copa1986{
+        p{
+            padding-left: 30px;
+            padding-right: 30px;
+            margin-bottom: 2rem;
+        }
+        img{
+            width: 100%;
+            height: auto;
+            padding: 20px;
+        }
+    }
+
+    .torneo-local{
+        p{
+            padding-left: 30px;
+            padding-right: 30px;
+            margin-bottom: 2rem;
+        }
+        img{
+            width: 100%;
+            height: auto;
+            padding: 20px;
+        }
+    }
+
+
+}
+
+// idolos
+
+.main-idolos{
+    
+   
+.idolos-foto{
+  img{
+        width: 90%;
+        height: auto;
+        padding: 20px;
+  }
+
+}
+.idolo{
+align-items: center;
+justify-content: center;
+margin-right: 30px;
+
+.beto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    .beto-foto{
+        h2{
+            width: 100%;
+        }
+        img{
+            width: 310px;
+            height: 200px;
+            
+        
+        }   
+    } 
+    p{
+       width: 90%; 
+    }
+}
+
+.ramon{
+    display: flex;
+    flex-direction: column;
+    .ramon-foto{
+        h2{
+            width: 100%;
+        }
+        img{
+            width: 310px;
+            height: 200px;
+            
+        
+        }
+    }
+    p{
+        width: 90%;
+    }
+}
+
+.labruna{
+    display: flex;
+    flex-direction: column;
+    .labruna-foto{
+        h2{
+            width: 100%;
+        }
+        img{
+            width: 310px;
+            height: 200px;
+            
+        
+        }
+    }
+    p{
+        width: 90%;
+    }
+
+    
+}
+
+.carrizo{
+    display: flex;
+    flex-direction: column;
+    .carrizo-foto{
+        h2{
+            width: 100%;
+        }
+        img{
+            width: 310px;
+            height: 200px;
+            
+            
+        }
+    }
+    p{
+        width: 90%;
+    }
+}
+
+
+.ortega{
+    display: flex;
+    flex-direction: column;
+    .ortega-foto{
+        h2{
+            width: 100%;
+        }
+        img{
+            width: 310px;
+            height: 200px;
+            
+            
+        }
+    }
+    p{
+        width: 90%;
+    }
+}
+
+.francescoli{
+    display: flex;
+    flex-direction: column;
+    .francescoli-foto{
+        h2{
+            width: 100%;
+        }
+        img{
+            
+            width: 310px;
+            height: 200px;
+            
+        }
+    }
+    p{
+        width: 90%;
+    }
+}
+
+.gallardo{
+    display: flex;
+    flex-direction: column;
+    .gallardo-foto{
+        h2{
+            width: 100%;
+        }
+        img{
+            width: 310px;
+            height: 200px;
+            
+           
+        }
+    }
+    p{
+        width: 90%;
+    }
+}
+
+.ponzio{
+    display: flex;
+    flex-direction: column;
+    .ponzio-foto{
+        h2{
+            width: 100%;
+        }
+        img{
+            width: 310px;
+            height: 200px;
+            
+        }
+    }
+    p{
+        width: 90%;
+        
+    }
+}
+
+
+
+
+}
+
+}
+
+// estadio
+
+.main-estadio{
+
+     .estadio-inauguracion{
+          img{
+            width: 90%;
+            height: auto;
+          }
+
+     }
+
+.estadio-herradura{
+    img{
+            width: 90%;
+            height: auto;
+    }
+}
+
+
+
+.estadio-final{
+    img{
+         width: 90%;
+        height: auto;
+    }
+}
+
+.visita-monu{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 70vh;
+    max-width: 1400px;
+    margin: auto;
+    
+
+    h2{
+       background-color: red;
+        
+    }
+
+    
+
+    .div2{
+        grid-area: 2 / 1 / 3 / 3;
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        
+
+        .iframe{
+            margin-top: 5rem;
+            
+            iframe{
+                width: 100%;
+            }
+        }
+        .texto-visita{
+            display: flex;
+            align-items: center;
+            
+            p{
+                display: none;
+                
+            }
+        }
+    }
+}
+}
+
+
+
+
+
+// iniciar sesion
+
+
+.main-iniciarsesion{
+   form{
+     .mail{
+        display: flex;
+        justify-content: flex-start;
+     }
+   }
+}
+
+
+
+
+// footer 
+.foot{
+
+   width: auto;
+
+ .escudo-texto{
+
+    .escudo-color{
+        height: 120px; 
+    }
+
+    .texto-largo{
+        display: none;
+    }
+
+    .carp{
+        display: none;
+    }
+
+ }
+
+.iconos{
+    display: flex;
+    flex-direction: column;   
+}
+
+
+}
+
+
+}

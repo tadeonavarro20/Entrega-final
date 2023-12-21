@@ -1,0 +1,139 @@
+.main-trofeos{
+   h1{
+    @include titulos( black, 30px, center, 5%)
+   }
+   .titulo-foto{
+    margin-top: 60px;
+    text-align: center;
+     .museo{
+        margin-top: 30px;
+     }
+   }
+    .titulos-importantes{
+        p{
+            text-align: center;
+            font-size: 2rem;
+            margin-top: 3rem;
+        }
+        h2{
+            text-align: center;
+            margin-bottom: 3rem;
+            font-size: 2rem;
+        }
+    }
+    .libertadores{
+        display: flex; 
+        justify-content: center;
+        padding: 30px;
+        gap: 30px;
+       
+        
+        .libtrofeo1{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            
+            // flex: 1; 
+            // margin: 20px;
+            .img-trofeos{
+                max-width: 100%;
+                height: auto;
+                width: auto;
+                margin: 0;
+                
+            } 
+            p{
+                width: auto;
+                height: auto;
+            }
+        }
+
+        .libtrofeo2{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+
+            .img-trofeos{
+                max-width: 100%;
+                height: auto;
+                width: auto;
+                margin: 0;
+            }
+            p{
+                width: auto;
+                height: auto;
+                
+            }
+        }
+
+        .libtrofeo3{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            .img-trofeos{
+                max-width: 100%;
+                height: auto;
+                width: auto;
+                margin: 0;
+            }
+            p{
+                width: auto;
+                height:auto;
+            }
+        }
+    }
+    .lib2018{
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+        img{
+            width: 1000px;
+            height: 600px;
+        }
+        p{
+            text-align: center;
+            margin-top: 3rem; 
+        }
+    }
+   .intercontinental{
+    text-align: center;
+    font-size: 2rem;
+   }
+   .copa1986{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    text-align: center;
+    img{
+        height: 600px;
+        width: 1000px;
+        margin-bottom: 2rem;
+    }
+   }
+
+   .locales{
+    text-align: center;
+    font-size: 2rem;
+   }
+
+   .torneo-local{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    text-align: center;
+
+    img{
+        height: 600px;
+        width: 1000px;
+        margin-bottom: 2rem;
+    }
+   }
+}

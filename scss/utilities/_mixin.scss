@@ -1,0 +1,14 @@
+@mixin titulos ($color, $font-size, $text-align, $margin-top){
+ color: $color;
+ font-size: $font-size;
+ text-align: $text-align;
+ margin-top: $margin-top;
+}
+
+@mixin flex ($flex-direction, $align-items){
+    display:flex;
+    flex-direction: $flex-direction;
+    align-items: $align-items;
+}
+
+ 
