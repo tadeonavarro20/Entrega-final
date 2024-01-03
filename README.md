@@ -16,4 +16,4 @@ Esta pagina esta creada con un fin academico, esta es mi primera pagina web, dec
 
 
 
-![escudo-river-color](https://github.com/tadeonavarro20/Entrega-final/assets/154484642/129498ba-3771-4b53-9301-f7b8b5056b9d)
+                                                                                                                                                  ![escudo-river-color](https://github.com/tadeonavarro20/Entrega-final/assets/154484642/129498ba-3771-4b53-9301-f7b8b5056b9d)
