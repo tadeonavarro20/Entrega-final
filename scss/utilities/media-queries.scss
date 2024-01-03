@@ -184,18 +184,12 @@
   .escudo-texto{
     justify-content:flex-start;
     
-    
-    .escudo-color{
-        
-    }
-    
     .texto-largo{
         display: none;
        
     }
     .carp{
         display: block;
-        
         
     }
   }
@@ -364,17 +358,13 @@ margin-right: 30px;
 .beto{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     
     .beto-foto{
         h2{
             width: 100%;
         }
         img{
-            width: 310px;
-            height: 200px;
-            
-        
+            @include idolos (310px, 300px, 1rem)
         }   
     } 
     p{
@@ -390,8 +380,7 @@ margin-right: 30px;
             width: 100%;
         }
         img{
-            width: 310px;
-            height: 200px;
+            @include idolos (310px, 300px, 2rem)
             
         
         }
@@ -409,8 +398,7 @@ margin-right: 30px;
             width: 100%;
         }
         img{
-            width: 310px;
-            height: 200px;
+            @include idolos (310px, 300px, 2rem)
             
         
         }
@@ -430,8 +418,7 @@ margin-right: 30px;
             width: 100%;
         }
         img{
-            width: 310px;
-            height: 200px;
+            @include idolos (310px, 300px, 2rem)
             
             
         }
@@ -450,8 +437,7 @@ margin-right: 30px;
             width: 100%;
         }
         img{
-            width: 310px;
-            height: 200px;
+            @include idolos (310px, 300px, 2rem)
             
             
         }
@@ -470,8 +456,7 @@ margin-right: 30px;
         }
         img{
             
-            width: 310px;
-            height: 200px;
+            @include idolos (310px, 300px, 2rem)
             
         }
     }
@@ -488,9 +473,7 @@ margin-right: 30px;
             width: 100%;
         }
         img{
-            width: 310px;
-            height: 200px;
-            
+            @include idolos (310px, 300px, 2rem)
            
         }
     }
@@ -507,9 +490,7 @@ margin-right: 30px;
             width: 100%;
         }
         img{
-            width: 310px;
-            height: 200px;
-            
+            @include idolos (310px, 300px, 2rem)
         }
     }
     p{
