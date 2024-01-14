@@ -19,25 +19,20 @@
      }
     
      .apellido{
-        width: 290px;
-        margin-bottom: 2rem;
+        @extend .nombre;
      }
     .usuario{
-        width: 290px;
-        margin-bottom: 2rem;
+        @extend .nombre;
     }
     .mail{
-        width: 290px;
-        margin-bottom: 2rem;
+        @extend .nombre;
     }
     .contraseña{
-        width: 290px;
-        margin-bottom: 2rem;
+        @extend .nombre;
     }
 
     .provincia{
-        width: 290px;
-        margin-bottom: 2rem;
+        @extend .nombre;
     }
     .condiciones{
         width: 290px;
@@ -48,5 +43,5 @@
     }
 
  }
- 
+
 }

@@ -69,12 +69,12 @@ header nav .navbar-collapse .nav-list {
   text-align: center;
   margin-top: 5%;
 }
-.historia .section1 {
+.historia .section1, .historia .section3 {
   display: flex;
   align-items: center;
   margin-top: 5%;
 }
-.historia .section1 img {
+.historia .section1 img, .historia .section3 img {
   width: 40%;
   margin: 25px;
 }
@@ -82,16 +82,11 @@ header nav .navbar-collapse .nav-list {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
-  margin-top: 2%;
+  margin-top: 5%;
 }
 .historia .section2 img {
   width: 40%;
   margin: 25px;
-}
-.historia .section3 {
-  display: flex;
-  align-items: center;
-  margin-top: 2%;
 }
 .historia .section3 img {
   width: 40%;
@@ -134,8 +129,8 @@ header nav .navbar-collapse .nav-list {
 }
 .main-trofeos .libertadores .libtrofeo1 {
   display: flex;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 .main-trofeos .libertadores .libtrofeo1 .img-trofeos {
@@ -150,8 +145,8 @@ header nav .navbar-collapse .nav-list {
 }
 .main-trofeos .libertadores .libtrofeo2 {
   display: flex;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 .main-trofeos .libertadores .libtrofeo2 .img-trofeos {
@@ -166,8 +161,8 @@ header nav .navbar-collapse .nav-list {
 }
 .main-trofeos .libertadores .libtrofeo3 {
   display: flex;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 .main-trofeos .libertadores .libtrofeo3 .img-trofeos {
@@ -181,10 +176,10 @@ header nav .navbar-collapse .nav-list {
   height: auto;
 }
 .main-trofeos .lib2018 {
-  margin-top: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 2rem;
 }
 .main-trofeos .lib2018 img {
   width: 1000px;
@@ -507,27 +502,7 @@ header nav .navbar-collapse .nav-list {
   margin-top: 8rem;
   margin-bottom: 10rem;
 }
-.main-iniciarsesion .inputs .nombre {
-  width: 290px;
-  margin-bottom: 2rem;
-}
-.main-iniciarsesion .inputs .apellido {
-  width: 290px;
-  margin-bottom: 2rem;
-}
-.main-iniciarsesion .inputs .usuario {
-  width: 290px;
-  margin-bottom: 2rem;
-}
-.main-iniciarsesion .inputs .mail {
-  width: 290px;
-  margin-bottom: 2rem;
-}
-.main-iniciarsesion .inputs .contraseña {
-  width: 290px;
-  margin-bottom: 2rem;
-}
-.main-iniciarsesion .inputs .provincia {
+.main-iniciarsesion .inputs .nombre, .main-iniciarsesion .inputs .provincia, .main-iniciarsesion .inputs .contraseña, .main-iniciarsesion .inputs .mail, .main-iniciarsesion .inputs .usuario, .main-iniciarsesion .inputs .apellido {
   width: 290px;
   margin-bottom: 2rem;
 }
@@ -542,7 +517,7 @@ header nav .navbar-collapse .nav-list {
   .historia {
     font-size: 17px;
   }
-  .historia .section1 img {
+  .historia .section1 img, .historia .section3 img {
     width: 350px;
   }
   .historia .section2 img {
@@ -648,13 +623,13 @@ header nav .navbar-collapse .nav-list {
   header {
     width: auto;
   }
-  .historia .section1 {
+  .historia .section1, .historia .section3 {
     flex-direction: column;
     text-align: center;
     margin-top: 40px;
     padding: 20px;
   }
-  .historia .section1 img {
+  .historia .section1 img, .historia .section3 img {
     width: 310px;
     height: 200px;
   }
@@ -750,14 +725,14 @@ header nav .navbar-collapse .nav-list {
   .main-idolos .idolo .beto {
     display: flex;
     flex-direction: column;
-    justify-content: center;
   }
   .main-idolos .idolo .beto .beto-foto h2 {
     width: 100%;
   }
   .main-idolos .idolo .beto .beto-foto img {
     width: 310px;
-    height: 200px;
+    height: 300px;
+    margin-bottom: 1rem;
   }
   .main-idolos .idolo .beto p {
     width: 90%;
@@ -771,7 +746,8 @@ header nav .navbar-collapse .nav-list {
   }
   .main-idolos .idolo .ramon .ramon-foto img {
     width: 310px;
-    height: 200px;
+    height: 300px;
+    margin-bottom: 2rem;
   }
   .main-idolos .idolo .ramon p {
     width: 90%;
@@ -785,7 +761,8 @@ header nav .navbar-collapse .nav-list {
   }
   .main-idolos .idolo .labruna .labruna-foto img {
     width: 310px;
-    height: 200px;
+    height: 300px;
+    margin-bottom: 2rem;
   }
   .main-idolos .idolo .labruna p {
     width: 90%;
@@ -799,7 +776,8 @@ header nav .navbar-collapse .nav-list {
   }
   .main-idolos .idolo .carrizo .carrizo-foto img {
     width: 310px;
-    height: 200px;
+    height: 300px;
+    margin-bottom: 2rem;
   }
   .main-idolos .idolo .carrizo p {
     width: 90%;
@@ -813,7 +791,8 @@ header nav .navbar-collapse .nav-list {
   }
   .main-idolos .idolo .ortega .ortega-foto img {
     width: 310px;
-    height: 200px;
+    height: 300px;
+    margin-bottom: 2rem;
   }
   .main-idolos .idolo .ortega p {
     width: 90%;
@@ -827,7 +806,8 @@ header nav .navbar-collapse .nav-list {
   }
   .main-idolos .idolo .francescoli .francescoli-foto img {
     width: 310px;
-    height: 200px;
+    height: 300px;
+    margin-bottom: 2rem;
   }
   .main-idolos .idolo .francescoli p {
     width: 90%;
@@ -841,7 +821,8 @@ header nav .navbar-collapse .nav-list {
   }
   .main-idolos .idolo .gallardo .gallardo-foto img {
     width: 310px;
-    height: 200px;
+    height: 300px;
+    margin-bottom: 2rem;
   }
   .main-idolos .idolo .gallardo p {
     width: 90%;
@@ -855,7 +836,8 @@ header nav .navbar-collapse .nav-list {
   }
   .main-idolos .idolo .ponzio .ponzio-foto img {
     width: 310px;
-    height: 200px;
+    height: 300px;
+    margin-bottom: 2rem;
   }
   .main-idolos .idolo .ponzio p {
     width: 90%;

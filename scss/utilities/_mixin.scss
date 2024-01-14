@@ -11,4 +11,10 @@
     align-items: $align-items;
 }
 
+@mixin idolos ($width, $height, $margin-bottom){
+ width: $width;
+ height: $height;
+ margin-bottom: $margin-bottom;
+}
+
  

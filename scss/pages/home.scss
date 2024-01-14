@@ -15,10 +15,9 @@
             margin: 25px;
          }
      }
-
      .section2{
       @include flex(row-reverse, center);
-        margin-top: 2%;
+        margin-top: 5%;
 
          img{
             width: 40%;
@@ -27,22 +26,17 @@
      }
 
      .section3{
-        display: flex;
-        align-items: center;
-        margin-top: 2%;
-
+        @extend .section1;
         img{
             width: 40%;
             margin: 25px;
         }
      }
-
      .textoFinal{
         display: flex;
         text-align: center;
         margin-top: 5%;
     }
-
      }
 
 
