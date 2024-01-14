@@ -537,36 +537,6 @@ header nav .navbar-collapse .nav-list {
 .main-iniciarsesion .inputs .enviar {
   width: 290px;
 }
-.foot {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 30px;
-  background-color: #FF0000;
-  height: 100%;
-  width: 100%;
-  margin-top: 60px;
-  display: flex;
-  justify-content: space-between;
-}
-.foot .escudo-texto {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 60%;
-}
-.foot .escudo-texto .texto-largo {
-  font-size: 40px;
-}
-.foot .escudo-texto .carp {
-  display: none;
-}
-.foot .iconos {
-  display: flex;
-  align-items: center;
-}
-.foot .iconos a .twitter {
-  width: 40px;
-  height: 40px;
-}
 
 @media screen and (max-width: 1024px) {
   .historia {
@@ -939,6 +909,7 @@ header nav .navbar-collapse .nav-list {
     justify-content: flex-start;
   }
   .foot {
+    margin-top: 12rem;
     width: auto;
   }
   .foot .escudo-texto .escudo-color {
@@ -955,6 +926,5 @@ header nav .navbar-collapse .nav-list {
     flex-direction: column;
   }
 }
-
 
 /*# sourceMappingURL=styles.css.map */
